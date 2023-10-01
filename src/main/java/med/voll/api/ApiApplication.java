@@ -12,5 +12,6 @@ public class ApiApplication {
 
 		SpringApplication.run(ApiApplication.class, args);
 	}
+	//java -DDATASOURCE_URL=jdbc:mysql://localhost/vollmed_api -DDATASOURCE_USERNAME=root -DDATASOURCE_PASSWORD=12345 -jar target/api-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
 
 }
